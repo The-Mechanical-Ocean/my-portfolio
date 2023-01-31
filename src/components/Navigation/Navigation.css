@@ -1,0 +1,402 @@
+.navigation__button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    right: 23px;
+    top: 65px;
+    margin-left: 14px;
+    border: none;
+    text-decoration: none;
+    width: 20px;
+    height: 22px;
+    background-color: transparent;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .navigation__button:hover {
+    transform: rotate(25deg);
+    transition: transform 0.2s;
+  }
+  
+  .navigation__button_inactive {
+    display: none;
+  }
+  
+  .navigation__span {
+    width: 17px;
+    height: 4px;
+    background-color: gray;
+    padding: 0;
+  }
+  
+  .navigation__span:nth-child(2) {
+    margin-top: 4px;
+  }
+  
+  .navigation__span:nth-child(3) {
+    margin-top: 4px;
+  }
+  
+  .navigation__span_menu-active:nth-child(1) {
+    display: none;
+  }
+  
+  .navigation__span_menu-active:nth-child(2) {
+    width: 23px;
+    transform: rotate(-48deg);
+    transition: transform 0.35s;
+  }
+  
+  .navigation__span_menu-active:nth-child(3) {
+    width: 23px;
+    margin-top: -4px;
+    transform: rotate(42deg);
+    transition: transform 0.35s;
+  }
+  
+  .navigation__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 288px;
+    height: 812px;
+    padding: 15px;
+    background: #f4f4f4cf;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+  }
+  
+  .navigation__menu_active {
+    transform: translateX(0);
+    transition: transform 0.75s;
+    visibility: visible;
+  }
+  
+
+  .navigation__nav-container {
+    margin: 35px 0 0 0;
+    padding: 0;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .navigation__menu-link {
+    /* outline: 1px solid red; */
+    font-size: 34px;
+    line-height: 42px;
+    color: #828282;
+    cursor: pointer;
+  }
+  
+  .navigation__menu-link:hover {
+    color: #090909;
+    transition: color 0.5s;
+  }
+  
+  .navigation__menu-lang {
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: rotate(90deg);
+    margin-left: 187px;
+    margin-bottom: 90px;
+  }
+  
+  .navigation__menu-button-lang {
+    margin: 0;
+    font-size: 32px;
+    line-height: 42px;
+    color: #828282;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .navigation__menu-button-lang:hover {
+    color: #090909;
+    transition: color 0.5s;
+  }
+  
+  .navigation__menu-button-lang_active {
+    color: #000000;
+  }
+  
+  .navigation {
+    margin: 0 auto 0;
+    max-width: 1280px;
+    /* width: 99.8%; */
+    height: 90px;
+    display: flex;
+    /* justify-content: space-between;  */
+    /* align-content: center; */
+    align-items: flex-end;
+    /* outline: 1px solid red; */
+    /* background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%); */
+  }
+  
+  .navigation_inactive {
+    display: none;
+  }
+  
+  .navigation__link-container {
+    margin: 0 auto 0;
+    width: 945px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* outline: 1px solid red; */
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+  }
+  
+  /* .header__face-img {
+    background-image: url('../../images/faceboock.svg');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  }
+  .header__inst-img {
+    background-image: url('../../images/insta.svg');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  }
+  .header__twit-img {
+    background-image: url('../../images/twiter.svg');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  } */
+  
+  .navigation__link {
+    font-weight: 700;
+    font-size: 18px;
+    color: #828282;
+    text-decoration: none;
+  }
+  
+  /* .header__title {
+    margin: 0 80px 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #24B4E6;
+  } */
+  
+  /* .navigation__menu {
+    background-image: url('../../images/header-menu.svg');
+    background-size: cover;
+    width: 40px;
+    height: 27px;
+    margin-right: 15px;
+  } */
+  
+  .navigation__link:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s ease 0s;
+  }
+  
+  /* @media screen and (max-width: 1280px) {
+    .header {
+      max-width: 900px;
+    }
+    .header__title {
+      font-size: 27px;
+      margin-right: 40px;
+    }
+    .header__face-img {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .header__inst-img {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .header__twit-img {
+      width: 24px;
+      height: 24px;
+    }
+    .header__menu {
+      height: 24px;
+    }
+    .header__link {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .header {
+      height: 75px;
+    }
+    .header__title {
+      margin-right: 10px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .header {
+      max-width: 320px;
+      height: 50px;
+    }
+    .header__title {
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    .header__face-img {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .header__inst-img {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .header__twit-img {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .header__link {
+      width: 16px;
+      height: 16px;
+    }
+    .header__menu {
+      height: 18px;
+      width: 18px;
+      margin-right: 10px;
+    }
+    
+    .header__img-container {
+      margin-left: 10px;
+      width: 60px;
+    }
+  } */
+  
+  .hero {
+    margin: 0 auto 0;
+    max-width: 1280px;
+    /* width: 99.8%; */
+    height: 680px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between;  */
+    align-content: center;
+    /* align-items: flex-end; */
+    outline: 1px solid red;
+    /* background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%); */
+  }
+  
+  .hero__container {
+    margin: 0 auto 0;
+    width: 945px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    outline: 1px solid red;
+    /* border-bottom: 1px solid rgba(130, 130, 130, 1); */
+  }
+  
+  .hero__info-container {
+    /* margin: 0 auto 0;
+    width: 945px;
+    height: 536px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: flex-end;
+    outline: 1px solid red;
+    /* border-bottom: 1px solid rgba(130, 130, 130, 1); */
+  }
+  
+  .hero__name {
+    margin: 0;
+    width: 155px;
+    font-size: 47px;
+    line-height: 52px;
+    color: #070707;
+    outline: 1px solid red;
+  }
+  
+  .hero__profi {
+    margin: 0 40px 10px 0;
+    width: 210px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    outline: 1px solid red;
+  }
+  
+  .hero__lang {
+    margin: 0px 0 10px 0;
+    padding: 40px 0 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    outline: 1px solid red;
+  }
+  .hero__foto {
+    background-image: url("../../images/hero__foto.png");
+    background-size: cover;
+    width: 945px;
+    height: 387px;
+  }
+  /*
+  .header__inst-img {
+    background-image: url('../../images/insta.svg');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  }
+  
+  .header__twit-img {
+    background-image: url('../../images/twiter.svg');
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  } */
+  
+  .header__link {
+    font-weight: 700;
+    font-size: 18px;
+    color: #828282;
+    text-decoration: none;
+  }
+  
+  /* .header__title {
+    margin: 0 80px 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #24B4E6;
+  } */
+  
+  .header__menu {
+    /* background-image: url('../../images/header-menu.svg'); */
+    background-size: cover;
+    width: 40px;
+    height: 27px;
+    margin-right: 15px;
+  }
+  
+  .header__link:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s ease 0s;
+  }
