@@ -1,25 +1,50 @@
 import React from "react";
-import './Hero.css';
+import "./Hero.css";
+import { LangActiveContext } from "../../context/LangActiveContext";
 
 function Hero() {
-    return (
+  const { lang } = React.useContext(LangActiveContext);
+  const [isRu, setIsRu] = lang;
+
+  return (
     <section className="hero">
       <div className="hero__container">
         <div className="hero__info-container">
           <h1 className="hero__name">
-            Kudrin Alexandr
+            {isRu ? "Кудрин Алекс" : "Kudrin Alex"}
           </h1>
-          <p className="hero__profi">
-            FRONTEND DEVELOPER 34 years old, Moscow
+          <p className={isRu ? "hero__profi hero__profi-ru" : "hero__profi"}>
+            {isRu
+              ? "ФРОНТЕНД-РАЗРАБОТЧИК 34 года, Москва"
+              : "FRONTEND DEVELOPER 34 years old, Moscow"}
           </p>
-          <p className="hero__lang">
-            RU | ENG
-          </p>
+          <div className="hero__container-lang">
+            <button
+              className={
+                isRu
+                  ? "hero__button-lang hero__button-lang_active"
+                  : "hero__button-lang"
+              }
+              onClick={() => setIsRu(true)}
+            >
+              RU <span className="hero__button-lang_active">| </span>
+            </button>
+            <button
+              className={
+                !isRu
+                  ? "hero__button-lang hero__button-lang_active"
+                  : "hero__button-lang"
+              }
+              onClick={() => setIsRu(false)}
+            >
+              ENG
+            </button>
+          </div>
         </div>
         <div className="hero__foto"></div>
       </div>
     </section>
-    )
-} 
+  );
+}
 
-export default Hero; 
+export default Hero;
