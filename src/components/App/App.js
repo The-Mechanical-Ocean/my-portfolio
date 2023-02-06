@@ -15,8 +15,8 @@ function App() {
     <div className="app">
       <LangActiveContext.Provider value={{ lang: [isRu, setIsRu] }}>
         <Header />
-        {/* <Hero /> */}
-        {/* <AboutMe /> */}
+        <Hero />
+        <AboutMe />
         <Skills />
       </LangActiveContext.Provider>
     </div>

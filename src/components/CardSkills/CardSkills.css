@@ -4,20 +4,15 @@
   align-items: center;
   align-self: center;
   justify-content: space-between;
-  /* border-radius: 6px; */
-  /* gap: 30px; */
-  height: 205px;
+  height: 180px;
   width: 165px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__image-container {
   width: 88px;
-  /* height: 89px; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  outline: 1px solid red;
+  height: 89px;
+  /* outline: 1px solid red; */
 }
 
 .card__image {
@@ -28,26 +23,23 @@
 
 .card__image-stars-container {
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__image-stars {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80%;
+  width: 90%;
 }
 
 .card__text {
   margin: 0;
   color: #828282;
-  /* font-weight: 500; */
-  font-size: 14px;
-  line-height: 17px;
-  /* width: 700px; */
+  font-size: 16px;
+  line-height: 18px;
   text-align: center;
 }
 
