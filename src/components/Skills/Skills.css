@@ -1,0 +1,27 @@
+.skills {
+  margin: 0 auto 0;
+  max-width: 1280px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  outline: 1px solid red;
+}
+
+.skills__title {
+  font-size: 34px;
+  font-style: 42px;
+  color: #070707;
+}
+
+.skills__text {
+  font-size: 28px;
+  font-style: 21px;
+  color: #070707;
+}
+
+.skills__cards-container {
+  display: flex;
+}

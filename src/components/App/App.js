@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import Skills from "../Skills/Skills";
 
 import AboutMe from "../AboutMe/AbotMe";
 
@@ -14,8 +15,9 @@ function App() {
     <div className="app">
       <LangActiveContext.Provider value={{ lang: [isRu, setIsRu] }}>
         <Header />
-        <Hero />
-        <AboutMe />
+        {/* <Hero /> */}
+        {/* <AboutMe /> */}
+        <Skills />
       </LangActiveContext.Provider>
     </div>
   );
