@@ -12,7 +12,7 @@ function AboutMe() {
       <div className="about__info-me-container">
         <p className="about-text">
           {isRu
-            ? "Привет, я Саша — ФРОНТЕНД - РАЗРАБОТЧИК из Москвы. Интересуюсь Web - получается и всем, что с ней связано."
+            ? "Привет, я Саша — ФРОНТЕНД - РАЗРАБОТЧИК из Москвы. Интересуюсь веб-разработкой и всем, что с ней связано."
             : "Hi, I'm Sasha — FRONTEND DEVELOPER from Moscow. I'm interested in the Web - it turns out everything connected with it."}
         </p>
         <p className="about-text">

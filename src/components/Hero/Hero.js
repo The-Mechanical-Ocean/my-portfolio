@@ -12,7 +12,7 @@ function Hero() {
       <div className="hero__container">
         <div className="hero__info-container">
           <h1 className="hero__name">
-            {isRu ? "Кудрин Алекс" : "Kudrin Alex"}
+            {isRu ? "Кудрин Александр" : "Kudrin Alexandr"}
           </h1>
           <p className={isRu ? "hero__profi hero__profi-ru" : "hero__profi"}>
             {isRu
