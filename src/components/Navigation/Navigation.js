@@ -37,7 +37,7 @@ export default function Navigation(props) {
 
   React.useEffect(() => {
     if (!isMenuActive) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = "scroll";
     } else {
       document.body.style.overflow = "visible";
     }

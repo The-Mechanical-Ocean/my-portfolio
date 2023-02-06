@@ -13,12 +13,12 @@ function App() {
   const [isRu, setIsRu] = React.useState(false);
 
   return (
-    <div className="app">
+    <div className="app" id="app">
       <LangActiveContext.Provider value={{ lang: [isRu, setIsRu] }}>
         <Header />
-        {/* <Hero /> */}
-        {/* <AboutMe /> */}
-        {/* <Skills /> */}
+        <Hero />
+        <AboutMe />
+        <Skills />
         <Portfolio />
       </LangActiveContext.Provider>
     </div>
