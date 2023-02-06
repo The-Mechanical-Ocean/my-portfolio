@@ -1,0 +1,35 @@
+.about {
+  margin: 0 auto 0;
+  max-width: 1280px;
+  height: 505px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  background-color: #f6f6f6;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-size: 34px;
+  text-align: center;
+}
+.about__info-me-container {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 430px;
+  height: 220px;
+}
+
+.about__text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 21px;
+}
