@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
       <Navigation />
@@ -11,4 +11,3 @@ function Header() {
 }
 
 export default Header;
-
