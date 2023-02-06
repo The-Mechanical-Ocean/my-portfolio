@@ -1,6 +1,7 @@
 import React from "react";
-import "./Hero.css";
+
 import { LangActiveContext } from "../../context/LangActiveContext";
+import "./Hero.css";
 
 function Hero() {
   const { lang } = React.useContext(LangActiveContext);
