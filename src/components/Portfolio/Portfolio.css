@@ -1,0 +1,27 @@
+.portfolio {
+  margin: 0 auto 0;
+  max-width: 1280px;
+  /* height: 505px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  background-color: #f6f6f6;
+}
+
+.portfolio__image-link {
+  width: 935px;
+  height: 510px;
+  outline: 1px solid green;
+}
+
+.portfolio__image {
+  /* width: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  outline: 1px solid green;
+}

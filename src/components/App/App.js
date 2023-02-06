@@ -5,6 +5,7 @@ import Hero from "../Hero/Hero";
 import Skills from "../Skills/Skills";
 
 import AboutMe from "../AboutMe/AbotMe";
+import Portfolio from "../Portfolio/Portfolio";
 
 import { LangActiveContext } from "../../context/LangActiveContext";
 
@@ -15,9 +16,10 @@ function App() {
     <div className="app">
       <LangActiveContext.Provider value={{ lang: [isRu, setIsRu] }}>
         <Header />
-        <Hero />
-        <AboutMe />
-        <Skills />
+        {/* <Hero /> */}
+        {/* <AboutMe /> */}
+        {/* <Skills /> */}
+        <Portfolio />
       </LangActiveContext.Provider>
     </div>
   );
