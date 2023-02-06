@@ -35,14 +35,6 @@ export default function Navigation(props) {
     setIsMenuActive(!isMenuActive);
   }
 
-  // function handleClickLangRu() {
-  //   props.handleClickLangRu();
-  // }
-
-  // function handleClickLangEn() {
-  //   props.handleClickLangEn();
-  // }
-
   React.useEffect(() => {
     if (!isMenuActive) {
       document.body.style.overflow = "hidden";
