@@ -13,7 +13,9 @@ function Skills() {
       <h2 className="skills__title">{isRu ? "Навыки" : "Skills"}</h2>
 
       <p className="skills__text">
-        {isRu ? "Я работаю в софте" : "I work in such programs as"}
+        {isRu
+          ? "Я использую такие продукты и программные средства как"
+          : "I use products and software such as"}
       </p>
       <div className="skills__cards-container">
         {cards.map((card, cardId) => {
