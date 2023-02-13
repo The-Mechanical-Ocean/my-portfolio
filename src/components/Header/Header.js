@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 
-function Header(props) {
+function Header() {
   return (
     <header className="header">
       <Navigation />

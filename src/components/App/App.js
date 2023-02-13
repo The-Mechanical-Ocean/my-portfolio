@@ -6,7 +6,7 @@ import Skills from "../Skills/Skills";
 
 import AboutMe from "../AboutMe/AbotMe";
 import Portfolio from "../Portfolio/Portfolio";
-
+import Footer from "../Footer/Footer";
 import { LangActiveContext } from "../../context/LangActiveContext";
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <AboutMe />
         <Skills />
         <Portfolio />
+        <Footer />
       </LangActiveContext.Provider>
     </div>
   );
