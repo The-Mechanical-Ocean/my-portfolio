@@ -2,10 +2,13 @@
 @import url(./vendor/font/font.css);
 
 .body {
-  background-color: #fff;
+  /* background-color: #fff; */
+  /* outline: 1px solid red; */
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* height:auto; */
 }
 
-/* #root {
-  font-family: 'Inter', Arial, sans-serif;
-  background-color: rgb(240, 240, 240);
-} */
+#root {
+  /* overflow: hidden; */
+}

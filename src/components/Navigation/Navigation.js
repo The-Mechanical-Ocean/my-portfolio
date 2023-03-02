@@ -21,27 +21,29 @@ export default function Navigation(props) {
       setIsMenuButton(false);
     }
 
-    setTimeout(window.addEventListener("resize", handleResize), 50);
+    setTimeout(window.addEventListener("resize", handleResize), 20);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [width]);
 
-  console.log(React.useContext(LangActiveContext));
-  console.log(isRu);
+  // console.log(React.useContext(LangActiveContext));
+  // console.log(isMenuButton);
+  // console.log(isMenuActive);
+
 
   function handleClickButtonMenu() {
     setIsMenuActive(!isMenuActive);
   }
 
-  React.useEffect(() => {
-    if (!isMenuActive) {
-      document.body.style.overflow = "scroll";
-    } else {
-      document.body.style.overflow = "visible";
-    }
-  }, [isMenuActive]);
+  // React.useEffect(() => {
+  //   if (!isMenuActive) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "visible";
+  //   }
+  // }, [isMenuActive]);
 
   return (
     <>
