@@ -8,7 +8,7 @@
   /* justify-content: space-between;  */
   align-content: center;
   /* align-items: flex-end; */
-  outline: none;
+  /* outline: none; */
   /* background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%); */
 }
 
@@ -153,51 +153,22 @@
   opacity: 0.6;
   transition: opacity 0.5s ease 0s;
 }
-
-/* @media screen and (max-width: 1280px) {
-    .header {
-      max-width: 900px;
-    }
-    .header__title {
-      font-size: 27px;
-      margin-right: 40px;
-    }
-  
-    .header__face-img {
-      width: 24px;
-      height: 24px;
-    }
-    
-    .header__inst-img {
-      width: 24px;
-      height: 24px;
-    }
-    
-    .header__twit-img {
-      width: 24px;
-      height: 24px;
-    }
-  
-    .header__menu {
-      height: 24px;
-    }
-  
-    .header__link {
-      width: 24px;
-      height: 24px;
-    }
-  }
   
   @media screen and (max-width: 900px) {
-    .header {
-      height: 75px;
+    .hero {
+      max-width: 768px;
     }
-    .header__title {
-      margin-right: 10px;
+    
+    .hero__container {
+      width: 768px;
+    }
+
+    .hero__foto {
+      width: 768px;
     }
   }
   
-  @media screen and (max-width: 640px) {
+  /* @media screen and (max-width: 640px) { 
     .header {
       max-width: 320px;
       height: 50px;

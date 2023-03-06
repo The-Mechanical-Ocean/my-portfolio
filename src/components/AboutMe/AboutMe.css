@@ -34,3 +34,10 @@
   font-size: 18px;
   line-height: 21px;
 }
+
+@media screen and (max-width: 900px) {
+  .about {
+    max-width: 768px;
+  }
+  
+}

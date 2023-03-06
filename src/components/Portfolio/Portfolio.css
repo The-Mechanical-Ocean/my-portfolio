@@ -44,3 +44,17 @@
   margin: 40px 0 100px 0;
 
 }
+
+@media screen and (max-width: 900px) {
+  .portfolio {
+    max-width: 768px;
+    height: 1700px;
+  }
+
+  .portfolio__image-link {
+    width: 600px;
+    height: 330px;
+    /* outline: 1px solid green; */
+    /* border: none; */
+  }
+} 
