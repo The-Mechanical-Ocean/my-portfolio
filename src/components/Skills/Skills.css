@@ -37,3 +37,28 @@
     max-width: 768px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .skills {
+    max-width: 375px;
+    height: 1500px;
+    justify-content:center
+  }
+
+  .skills__title {
+    margin-top: 83px;
+  }
+  
+  .skills__text {
+    margin-top: 50px;
+  }
+
+  .skills__cards-container {
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 71px;
+    row-gap: 82px;
+  }
+
+}
+

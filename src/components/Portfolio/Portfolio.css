@@ -58,3 +58,22 @@
     /* border: none; */
   }
 } 
+
+@media screen and (max-width: 640px) {
+  .portfolio {
+    max-width: 375px;
+    height: 1120px;
+  }
+
+  .portfolio__image-link {
+    width: 316px;
+    height: 171px;
+    /* outline: 1px solid green; */
+    /* border: none; */
+  }
+
+  .portfolio__figcaption {
+    margin: 35px 0 78px 0;
+  }
+
+} 
