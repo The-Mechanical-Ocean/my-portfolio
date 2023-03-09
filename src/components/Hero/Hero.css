@@ -4,7 +4,7 @@
   /* width: 99.8%; */
   height: 680px;
   display: flex;
-  
+  /* position: relative; */
   /* flex-direction: column; */
   /* justify-content: space-between;  */
   align-content: center;
@@ -106,7 +106,7 @@
 }
 
 .hero__foto {
-  background-image: url("../../images/hero__foto.png");
+  background-image: url("../../images/gorrizont.jpg");
   background-size: cover;
   width: 945px;
   height: 387px;
@@ -200,7 +200,7 @@
     }
 
     .hero__foto {
-      background-image: url("../../images/hero__foto_mobile.png");
+      background-image: url("../../images/vert.jpg");
       width: 320px;
       height: 478px;
       /* margin-top: 40px; */
