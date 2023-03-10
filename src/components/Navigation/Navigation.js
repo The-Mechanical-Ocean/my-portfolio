@@ -8,9 +8,14 @@ export default function Navigation(props) {
   const [isMenuActive, setIsMenuActive] = React.useState(false);
   const [isMenuButton, setIsMenuButton] = React.useState(false);
   const [width, setWidth] = React.useState(window.innerWidth);
+  const [scrollTop, setScrollTop] = React.useState(0);
 
   function handleResize(event) {
     setWidth(event.target.innerWidth);
+  }
+  
+  function handleScroll(event) {
+    setScrollTop(window.scrollY);
   }
 
   React.useEffect(() => {
@@ -21,16 +26,21 @@ export default function Navigation(props) {
       setIsMenuButton(false);
     }
 
-    setTimeout(window.addEventListener("resize", handleResize), 20);
+    if (scrollTop >= 800) {
+      setIsMenuActive(false);
+    }
 
+    setTimeout(window.addEventListener("resize", handleResize), 20);
+    setTimeout(window.addEventListener('scroll', handleScroll), 50);
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, [width]);
 
-  // console.log(React.useContext(LangActiveContext));
-  // console.log(isMenuButton);
-  // console.log(isMenuActive);
+  }, [width, scrollTop]);
+  
+  // console.log('width', window.innerWidth)
+  // console.log('scroll', scrollTop)
 
 
   function handleClickButtonMenu() {
@@ -110,19 +120,19 @@ export default function Navigation(props) {
         }
       >
         <nav className="navigation__nav-container">
-          <a href="#" className="navigation__menu-link">
+          <a href="#hero" className="navigation__menu-link">
             {isRu ? "Домашняя страница" : "Home"}
           </a>
-          <a href="#" className="navigation__menu-link">
+          <a href="#about" className="navigation__menu-link">
             {isRu ? "Обо мне" : "About me"}
           </a>
-          <a href="#" className="navigation__menu-link">
+          <a href="#skills" className="navigation__menu-link">
             {isRu ? "Навыки" : "Skills"}
           </a>
-          <a href="#" className="navigation__menu-link">
+          <a href="#portfolio" className="navigation__menu-link">
             {isRu ? "Портфолио" : "Portfolio"}
           </a>
-          <a href="#" className="navigation__menu-link">
+          <a href="#contacts" className="navigation__menu-link">
             {isRu ? "Контакты" : "Contacts"}
           </a>
         </nav>
