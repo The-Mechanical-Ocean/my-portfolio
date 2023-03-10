@@ -8,7 +8,7 @@ function Hero() {
   const [isRu, setIsRu] = lang;
 
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero__container">
         <div className="hero__info-container">
           <h1 className="hero__name">

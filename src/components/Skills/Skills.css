@@ -7,7 +7,6 @@
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  /* outline: 1px solid red; */
 }
 
 .skills__title {
@@ -15,7 +14,7 @@
   margin-top: 90px;
   font-size: 34px;
   color: #070707;
-  /* outline: 1px solid red; */
+  font-weight: 700;
 }
 
 .skills__text {
@@ -23,7 +22,8 @@
   font-size: 18px;
   font-style: 21px;
   color: #070707;
-  /* outline: 1px solid red; */
+  font-weight: 500;
+  text-align: center;
 }
 
 .skills__cards-container {
@@ -41,7 +41,7 @@
 @media screen and (max-width: 640px) {
   .skills {
     max-width: 375px;
-    height: 1500px;
+    height: 1540px;
     justify-content:center
   }
 
@@ -56,7 +56,7 @@
   .skills__cards-container {
     flex-direction: column;
     margin-bottom: 100px;
-    margin-top: 71px;
+    margin-top: 70px;
     row-gap: 82px;
   }
 

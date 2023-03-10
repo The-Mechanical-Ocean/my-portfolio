@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   z-index: 2;
-  right: 23px;
-  top: 66px;
+  right: 0;
+  top: 32px;
   margin-left: 14px;
   border: none;
   text-decoration: none;
@@ -15,11 +15,10 @@
   background-color: transparent;
   list-style: none;
   cursor: pointer;
-  /* outline: 1px solid red; */
 }
 
 .navigation__button:hover {
-  transform: rotate(25deg);
+  transform: rotate(180deg);
   transition: transform 0.2s;
 }
 
@@ -68,7 +67,6 @@
   right: 0;
   width: 320px;
   height: 812px;
-  padding: 15px;
   background: #fff;
   transform: translateX(100%);
   transition: transform 0.3s;
@@ -93,11 +91,11 @@
 }
 
 .navigation__menu-link {
-  /* outline: 1px solid red; */
   font-size: 34px;
   line-height: 42px;
   color: #828282;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navigation__menu-link:hover {
@@ -112,7 +110,7 @@
   align-items: flex-end;
   transform: rotate(90deg);
   margin-left: 220px;
-  margin-bottom: 55px;
+  margin-bottom: 82px;
 }
 
 .navigation__menu-button-lang {
@@ -144,9 +142,6 @@
   justify-content: space-between; 
   /* align-content: center; */
   align-items: flex-end;
-  outline: 1px solid green;
-  /* outline: 1px solid red; */
-  /* background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%); */
 }
 
 .navigation_inactive {

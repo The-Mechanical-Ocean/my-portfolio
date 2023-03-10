@@ -9,7 +9,7 @@ function Skills() {
   const [isRu] = lang;
 
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2 className="skills__title">{isRu ? "Навыки" : "Skills"}</h2>
 
       <p className="skills__text">

@@ -53,19 +53,19 @@ export default function Navigation(props) {
         }
       >
         <div className="navigation__link-container">
-          <a href="#" className="navigation__link">
+          <a href="#home" className="navigation__link">
             {isRu ? "Домашняя страница" : "Home"}
           </a>
-          <a href="#" className="navigation__link">
+          <a href="#about" className="navigation__link">
             {isRu ? "Обо мне" : "About me"}
           </a>
-          <a href="#" className="navigation__link">
+          <a href="#skills" className="navigation__link">
             {isRu ? "Навыки" : "Skills"}
           </a>
-          <a href="#" className="navigation__link">
+          <a href="#portfolio" className="navigation__link">
             {isRu ? "Портфолио" : "Portfolio"}
           </a>
-          <a href="#" className="navigation__link">
+          <a href="#contacts" className="navigation__link">
             {isRu ? "Контакты" : "Contacts"}
           </a>
         </div>
