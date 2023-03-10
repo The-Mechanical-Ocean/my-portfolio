@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.cc48cda9.css",
-    "main.js": "/my-portfolio/static/js/main.02896fa7.js",
+    "main.css": "/my-portfolio/static/css/main.81e53862.css",
+    "main.js": "/my-portfolio/static/js/main.c7caae5a.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/portfolio3.png": "/my-portfolio/static/media/portfolio3.5f0be390eb5a0165dade.png",
     "static/media/portfolio2.png": "/my-portfolio/static/media/portfolio2.402b33c3a6c14b816dfb.png",
@@ -21,12 +21,12 @@
     "static/media/gilroy-bold.woff": "/my-portfolio/static/media/gilroy-bold.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-medium.woff": "/my-portfolio/static/media/gilroy-medium.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-regular.woff": "/my-portfolio/static/media/gilroy-regular.31d6cfe0d16ae931b73c.woff",
-    "main.cc48cda9.css.map": "/my-portfolio/static/css/main.cc48cda9.css.map",
-    "main.02896fa7.js.map": "/my-portfolio/static/js/main.02896fa7.js.map",
+    "main.81e53862.css.map": "/my-portfolio/static/css/main.81e53862.css.map",
+    "main.c7caae5a.js.map": "/my-portfolio/static/js/main.c7caae5a.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc48cda9.css",
-    "static/js/main.02896fa7.js"
+    "static/css/main.81e53862.css",
+    "static/js/main.c7caae5a.js"
   ]
 }
