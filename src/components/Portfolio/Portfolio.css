@@ -57,7 +57,7 @@
     width: 600px;
     height: 330px;
   }
-} 
+}
 
 @media screen and (max-width: 640px) {
   .portfolio {
@@ -77,5 +77,4 @@
   .portfolio__figcaption {
     margin: 32px 0 80px 0;
   }
-
-} 
+}

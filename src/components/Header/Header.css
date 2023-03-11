@@ -6,13 +6,11 @@
   align-items: flex-end;
 }
 
-
 @media screen and (max-width: 900px) {
   .header {
     max-width: 768px;
     height: 75px;
   }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -21,5 +19,4 @@
     width: 319.5px;
     position: relative;
   }
-  
 }

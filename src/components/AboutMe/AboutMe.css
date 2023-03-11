@@ -40,7 +40,6 @@
   .about {
     max-width: 768px;
   }
-  
 }
 
 @media screen and (max-width: 640px) {
@@ -50,13 +49,12 @@
   }
 
   .about__info-me-container {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  width: 316px;
-  height: 261px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 316px;
+    height: 261px;
   }
-
 }

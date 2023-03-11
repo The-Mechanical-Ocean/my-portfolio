@@ -42,13 +42,13 @@
   .skills {
     max-width: 375px;
     height: 1540px;
-    justify-content:center
+    justify-content: center;
   }
 
   .skills__title {
     margin-top: 83px;
   }
-  
+
   .skills__text {
     margin-top: 50px;
   }
@@ -59,6 +59,4 @@
     margin-top: 70px;
     row-gap: 82px;
   }
-
 }
-

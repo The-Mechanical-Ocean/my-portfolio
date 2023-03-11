@@ -41,26 +41,24 @@
   text-align: center;
 }
 
-
-
 @media screen and (max-width: 900px) {
   .card {
     height: 135px;
     width: 124px;
   }
-  
+
   .card__image-container {
     width: 67px;
     height: 68px;
   }
-} 
+}
 
 @media screen and (max-width: 640px) {
   .card {
     height: 170px;
     width: 206px;
   }
-  
+
   .card__image-container {
     width: 89px;
     height: 88px;
@@ -69,4 +67,4 @@
   .card__image-stars {
     /* margin-top: 40px; */
   }
-} 
+}

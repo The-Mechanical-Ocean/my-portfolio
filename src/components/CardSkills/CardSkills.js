@@ -1,5 +1,5 @@
-import React from "react";
-import "./CardSkills.css";
+import React from 'react';
+import './CardSkills.css';
 
 function CardSkills({ card }) {
   const [isClick, setIsClick] = React.useState(false);
