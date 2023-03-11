@@ -39,7 +39,7 @@ function Footer() {
           <div className="footer__face-img"></div>
         </a>
         <a
-          href="https://vk.com/feed?payload=%7B%22user%22%3A%7B%22first_name%22%3A%22%22%2C%22last_name%22%3A%22%22%7D%7D"
+          href="https://vk.com/id45582683"
           className="footer__link"
           target="blank"
         >

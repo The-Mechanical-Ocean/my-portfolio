@@ -3,12 +3,12 @@
 
 .body {
   /* background-color: #fff; */
-  /* outline: 1px solid red; */
+  /* outline: 4px solid red; */
   overflow-x: hidden;
   /* position: relative; */
   /* height:auto; */
 }
 
 #root {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
