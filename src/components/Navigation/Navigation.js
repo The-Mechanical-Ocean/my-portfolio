@@ -81,7 +81,7 @@ export default function Navigation() {
 
       <button
         type="button"
-        onClick={() => handleClickButtonMenu}
+        onClick={() => handleClickButtonMenu()}
         className={
           !isMenuButton
             ? 'navigation__button navigation__button_inactive'
