@@ -21,6 +21,7 @@ function Hero() {
           </p>
           <div className="hero__container-lang">
             <button
+              type="button"
               className={
                 isRu
                   ? 'hero__button-lang hero__button-lang_active'
@@ -31,6 +32,7 @@ function Hero() {
               RU <span className="hero__button-lang_active">| </span>
             </button>
             <button
+              type="button"
               className={
                 !isRu
                   ? 'hero__button-lang hero__button-lang_active'

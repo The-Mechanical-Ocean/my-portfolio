@@ -1,43 +1,44 @@
-import imgHTML from "../images/HTML.png";
-import imgCSS from "../images/CSS.png";
-import imgJS from "../images/JS.png";
-import imgReact from "../images/React.png";
-import imgGit from "../images/Git.png";
+import imgHTML from '../images/HTML.png';
+import imgCSS from '../images/CSS.png';
+import imgJS from '../images/JS.png';
+import imgReact from '../images/React.png';
+import imgGit from '../images/Git.png';
 
-import imgHTMLStars from "../images/stars.png";
-import imgCSSStars from "../images/stars.png";
-import imgJSStars from "../images/stars.png";
-import imgReactStars from "../images/stars.png";
-import imgGitStars from "../images/stars.png";
+import imgHTMLStars from '../images/stars.png';
+// import imgCSSStars from '../images/stars.png';
+// import imgJSStars from '../images/stars.png';
+// import imgReactStars from '../images/stars.png';
+// import imgGitStars from '../images/stars.png';
 
 const cards = [
   {
-    name: "HTML",
+    name: 'HTML',
     image: imgHTML,
     imageStars: imgHTMLStars,
     id: 1,
   },
   {
-    name: "CSS",
+    name: 'CSS',
     image: imgCSS,
-    imageStars: imgCSSStars,
+    imageStars: imgHTMLStars,
+    id: 2,
   },
   {
-    name: "JS",
+    name: 'JS',
     image: imgJS,
-    imageStars: imgJSStars,
+    imageStars: imgHTMLStars,
     id: 3,
   },
   {
-    name: "React",
+    name: 'React',
     image: imgReact,
-    imageStars: imgReactStars,
+    imageStars: imgHTMLStars,
     id: 4,
   },
   {
-    name: "Git",
+    name: 'Git',
     image: imgGit,
-    imageStars: imgGitStars,
+    imageStars: imgHTMLStars,
     id: 5,
   },
 ];

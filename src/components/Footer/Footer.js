@@ -17,13 +17,13 @@ function Footer() {
           ? 'Хотите узнать больше или просто поболтать? Добро пожаловать!'
           : 'Want to know more or just chat? You are welcome!'}{' '}
       </p>
-      <button className="footer__button">
+      <button className="footer__button" type="button">
         <a
           className="footer__button-link"
           href={`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(
             MESSAGE
           )}`}
-          target="_blank"
+          target="blank"
         >
           <p className="footer__button-text">
             {isRu ? 'Отправить сообщение' : 'Send message'}

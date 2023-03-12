@@ -18,9 +18,9 @@ function Skills() {
           : 'I use products and software such as'}
       </p>
       <div className="skills__cards-container">
-        {cards.map((card, cardId) => {
-          return <CardSkills card={card} key={cardId} />;
-        })}
+        {cards.map((card) => (
+          <CardSkills card={card} key={card.id} />
+        ))}
       </div>
     </section>
   );

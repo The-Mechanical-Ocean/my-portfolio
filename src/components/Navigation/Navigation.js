@@ -2,7 +2,7 @@ import React from 'react';
 import { LangActiveContext } from '../../context/LangActiveContext';
 import './Navigation.css';
 
-export default function Navigation(props) {
+export default function Navigation() {
   const { lang } = React.useContext(LangActiveContext);
   const [isRu, setIsRu] = lang;
   const [isMenuActive, setIsMenuActive] = React.useState(false);
@@ -14,7 +14,7 @@ export default function Navigation(props) {
     setWidth(event.target.innerWidth);
   }
 
-  function handleScroll(event) {
+  function handleScroll() {
     setScrollTop(window.scrollY);
   }
 
@@ -80,13 +80,13 @@ export default function Navigation(props) {
       </nav>
 
       <button
-        onClick={handleClickButtonMenu}
+        type="button"
+        onClick={() => handleClickButtonMenu}
         className={
           !isMenuButton
             ? 'navigation__button navigation__button_inactive'
             : 'navigation__button'
         }
-        typy="button"
       >
         <span
           className={
@@ -136,6 +136,7 @@ export default function Navigation(props) {
         </nav>
         <div className="navigation__menu-lang">
           <button
+            type="button"
             className={
               isRu
                 ? 'navigation__menu-button-lang navigation__menu-button-lang_active'
@@ -146,6 +147,7 @@ export default function Navigation(props) {
             RU <span className="navigation__menu-button-lang_active">|</span>
           </button>
           <button
+            type="button"
             className={
               !isRu
                 ? 'navigation__menu-button-lang navigation__menu-button-lang_active'

@@ -1,5 +1,5 @@
 .about {
-  margin: 0 auto 0;
+  margin: 100px auto 0;
   max-width: 1280px;
   width: 99.9%;
   display: flex;
@@ -50,10 +50,13 @@
 
 @media screen and (max-width: 640px) {
   .about {
+    margin-top: 80px;
     max-width: 375px;
     height: 491px;
   }
-
+  .about__title {
+    margin: 75px 0 0 0;
+  }
   .about__info-me-container {
     margin-top: 30px;
     text-align: center;

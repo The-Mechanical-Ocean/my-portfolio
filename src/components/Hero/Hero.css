@@ -1,7 +1,6 @@
 .hero {
   margin: 40px auto 0;
   max-width: 1280px;
-  height: 680px;
   display: flex;
   align-content: center;
 }
@@ -9,7 +8,7 @@
 .hero__container {
   margin: 0 auto 0;
   width: 945px;
-  height: 536px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,21 +75,23 @@
 }
 
 .hero__foto {
-  background-image: url('../../images/gorrizont.jpg');
+  background-image: url('../../images/new-gorizont.png');
+  background-position: center;
   background-size: cover;
-  width: 945px;
-  height: 387px;
+  /* outline: 1px solid red; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
 }
 
 @media screen and (max-width: 1024px) {
   .hero {
     max-width: 850px;
-    height: 660px;
   }
 
   .hero__container {
     width: 850px;
-    height: 526px;
+    height: 600px;
   }
 
   .hero__name {
@@ -101,19 +102,18 @@
 
   .hero__foto {
     width: 850px;
-    height: 360px;
+    height: 450px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .hero {
     max-width: 899px;
-    height: 650px;
   }
 
   .hero__container {
     width: 768px;
-    height: 515px;
+    height: 550px;
   }
 
   .hero__name {
@@ -124,19 +124,18 @@
 
   .hero__foto {
     width: 768px;
-    height: 330;
+    height: 410px;
   }
 }
 
 @media screen and (max-width: 820px) {
   .hero {
     max-width: 819px;
-    height: 560px;
   }
 
   .hero__container {
     width: 600px;
-    height: 460px;
+    height: 450px;
   }
 
   .hero__name {
@@ -152,14 +151,13 @@
 
   .hero__foto {
     width: 600px;
-    height: 300px;
+    height: 320px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .hero {
     max-width: 375px;
-    height: 760px;
     margin-top: 25px;
   }
 
@@ -183,7 +181,7 @@
   }
 
   .hero__foto {
-    background-image: url('../../images/vert.jpg');
+    background-image: url('../../images/new-vert.png');
     width: 318px;
     height: 478px;
   }
