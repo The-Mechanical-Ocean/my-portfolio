@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.346eb621.css",
-    "main.js": "/static/js/main.404a9826.js",
+    "main.css": "/static/css/main.3c049b4e.css",
+    "main.js": "/static/js/main.d98c2a72.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/portfolio3.png": "/static/media/portfolio3.5f0be390eb5a0165dade.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.402b33c3a6c14b816dfb.png",
@@ -13,6 +13,7 @@
     "static/media/gilroy-bold.woff2": "/static/media/gilroy-bold.0ad1eb915b2b169d8294.woff2",
     "static/media/gilroy-black.woff2": "/static/media/gilroy-black.f0ffd8f7d3cf454c8e99.woff2",
     "static/media/gilroy-regular.woff2": "/static/media/gilroy-regular.00b026798f05ff9d7752.woff2",
+    "static/media/portfolio5.png": "/static/media/portfolio5.ef101305e9302a8cda71.png",
     "static/media/instagram-alternative.png": "/static/media/instagram-alternative.776d16d0e9daa177afd5.png",
     "static/media/CSS.png": "/static/media/CSS.463e319bad8e0edf1ef7.png",
     "static/media/JS.png": "/static/media/JS.3dfb665e058d08c99f28.png",
@@ -21,12 +22,12 @@
     "static/media/gilroy-bold.woff": "/static/media/gilroy-bold.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-medium.woff": "/static/media/gilroy-medium.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-regular.woff": "/static/media/gilroy-regular.31d6cfe0d16ae931b73c.woff",
-    "main.346eb621.css.map": "/static/css/main.346eb621.css.map",
-    "main.404a9826.js.map": "/static/js/main.404a9826.js.map",
+    "main.3c049b4e.css.map": "/static/css/main.3c049b4e.css.map",
+    "main.d98c2a72.js.map": "/static/js/main.d98c2a72.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.346eb621.css",
-    "static/js/main.404a9826.js"
+    "static/css/main.3c049b4e.css",
+    "static/js/main.d98c2a72.js"
   ]
 }
