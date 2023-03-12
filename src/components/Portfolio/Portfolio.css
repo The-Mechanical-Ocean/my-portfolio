@@ -71,7 +71,6 @@
 @media screen and (max-width: 640px) {
   .portfolio {
     max-width: 375px;
-    height: 1120px;
   }
 
   .portfolio__title {

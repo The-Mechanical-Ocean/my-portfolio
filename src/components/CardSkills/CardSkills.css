@@ -6,7 +6,7 @@
   justify-content: space-between;
   height: 180px;
   width: 165px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__image-container {
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__image-stars {
