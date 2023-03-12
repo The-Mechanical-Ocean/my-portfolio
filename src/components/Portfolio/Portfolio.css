@@ -1,7 +1,7 @@
 .portfolio {
   margin: 0 auto 0;
   max-width: 1280px;
-  height: 2050px;
+  width: 99.9%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -16,7 +16,6 @@
 }
 
 .portfolio__link-container {
-  height: 1850px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +23,7 @@
 
 .portfolio__image-link {
   width: 935px;
-  height: 475px;
+  height: 460px;
 }
 
 .portfolio__image {
@@ -37,25 +36,35 @@
 
 .portfolio__figcaption {
   font-size: 18px;
-  margin: 40px 0 100px 0;
+  margin: 40px 0 90px 0;
   font-weight: 500;
+  color: #000;
 }
 
 .portfolio__figcaption-link {
-  text-decoration: none;
   list-style: none;
-  color: rgba(0, 0, 0, 1);
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio {
+    max-width: 1023px;
+  }
+
+  .portfolio__image-link {
+    width: 850px;
+    height: 430px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .portfolio {
-    max-width: 768px;
-    height: 1700px;
+    max-width: 899px;
   }
 
   .portfolio__image-link {
     width: 600px;
-    height: 330px;
+    height: 300px;
   }
 }
 

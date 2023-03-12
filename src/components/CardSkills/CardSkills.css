@@ -6,6 +6,7 @@
   justify-content: space-between;
   height: 180px;
   width: 165px;
+  outline: 1px solid red;
 }
 
 .card__image-container {
@@ -24,11 +25,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: 1px solid red;
 }
 
 .card__image-stars {
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .card__text {
@@ -41,15 +44,27 @@
   text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .card {
-    height: 135px;
-    width: 124px;
+    height: 155px;
+    width: 134px;
   }
 
   .card__image-container {
-    width: 67px;
-    height: 68px;
+    width: 75px;
+    height: 76px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    height: 105px;
+    width: 94px;
+  }
+
+  .card__image-container {
+    width: 47px;
+    height: 48px;
   }
 }
 

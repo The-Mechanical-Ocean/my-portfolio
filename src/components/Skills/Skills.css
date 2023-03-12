@@ -1,40 +1,52 @@
 .skills {
   margin: 0 auto 0;
   max-width: 1280px;
-  height: 520px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
   align-items: center;
+  outline: 1px solid red;
 }
 
 .skills__title {
   margin: 0;
   margin-top: 90px;
   font-size: 34px;
-  color: #070707;
+  color: #000;
   font-weight: 700;
 }
 
 .skills__text {
-  margin: 0;
+  margin: 60px 0 0 0;
   font-size: 18px;
   font-style: 21px;
-  color: #070707;
+  color: #000;
   font-weight: 500;
   text-align: center;
 }
 
 .skills__cards-container {
   display: flex;
-  margin-bottom: 100px;
+  margin: 82px 0 100px 0;
   column-gap: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills {
+    max-width: 1024px;
+  }
+
+  .skills__cards-container {
+    column-gap: 45px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .skills {
-    max-width: 768px;
+    max-width: 900px;
+  }
+
+  .skills__cards-container {
+    column-gap: 33px;
   }
 }
 

@@ -15,7 +15,7 @@ function Footer() {
       <p className="footer__text">
         {isRu
           ? 'Хотите узнать больше или просто поболтать? Добро пожаловать!'
-          : 'Want to know more or just chat?'}{' '}
+          : 'Want to know more or just chat? You are welcome!'}{' '}
       </p>
       <button className="footer__button">
         <a
