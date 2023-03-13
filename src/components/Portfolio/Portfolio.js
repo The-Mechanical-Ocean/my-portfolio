@@ -15,18 +15,13 @@ function Portfolio() {
     <section className="portfolio" id="portfolio">
       <h2 className="portfolio__title">{isRu ? 'Портфолио' : 'Portfolio'}</h2>
       <div className="portfolio__link-container">
-        <div className="portfolio__image-link">
-          <a
-            href="https://the-mechanical-ocean.github.io/how-to-learn/index.html"
-            target="blank"
-          >
-            <img
-              className="portfolio__image"
-              src={Portfolio2}
-              alt="portfolio"
-            />
-          </a>
-        </div>
+        <a
+          className="portfolio__image-link"
+          href="https://the-mechanical-ocean.github.io/how-to-learn/index.html"
+          target="blank"
+        >
+          <img className="portfolio__image" src={Portfolio2} alt="portfolio" />
+        </a>
         <figcaption className="portfolio__figcaption">
           <a
             className="portfolio__figcaption-link"
@@ -36,19 +31,13 @@ function Portfolio() {
             How To Learn
           </a>
         </figcaption>
-        <div className="portfolio__image-link">
-          <a
-            className="portfolio__figcaption-link"
-            href="https://the-mechanical-ocean.github.io/russian-travel/index.html"
-            target="blank"
-          >
-            <img
-              className="portfolio__image"
-              src={Portfolio1}
-              alt="portfolio"
-            />
-          </a>
-        </div>
+        <a
+          className="portfolio__image-link"
+          href="https://the-mechanical-ocean.github.io/russian-travel/index.html"
+          target="blank"
+        >
+          <img className="portfolio__image" src={Portfolio1} alt="portfolio" />
+        </a>
         <figcaption className="portfolio__figcaption">
           <a
             className="portfolio__figcaption-link"
@@ -58,19 +47,13 @@ function Portfolio() {
             Russian Travel
           </a>
         </figcaption>
-        <div className="portfolio__image-link">
-          <a
-            className="portfolio__figcaption-link"
-            href="https://the-mechanical-ocean.nomoredomains.sbs/sign-in"
-            target="blank"
-          >
-            <img
-              className="portfolio__image"
-              src={Portfolio4}
-              alt="portfolio"
-            />
-          </a>
-        </div>
+        <a
+          className="portfolio__image-link"
+          href="https://the-mechanical-ocean.nomoredomains.sbs/sign-in"
+          target="blank"
+        >
+          <img className="portfolio__image" src={Portfolio4} alt="portfolio" />
+        </a>
         <figcaption className="portfolio__figcaption">
           <a
             className="portfolio__figcaption-link"
@@ -81,15 +64,13 @@ function Portfolio() {
           </a>
         </figcaption>
       </div>
-      <div className="portfolio__image-link">
-        <a
-          className="portfolio__figcaption-link"
-          href="https://t-m-o-portfolio-movies.nomoredomains.icu/"
-          target="blank"
-        >
-          <img className="portfolio__image" src={Portfolio5} alt="portfolio" />
-        </a>
-      </div>
+      <a
+        className="portfolio__image-link"
+        href="https://t-m-o-portfolio-movies.nomoredomains.icu/"
+        target="blank"
+      >
+        <img className="portfolio__image" src={Portfolio5} alt="portfolio" />
+      </a>
       <figcaption className="portfolio__figcaption">
         <a
           className="portfolio__figcaption-link"
@@ -99,15 +80,13 @@ function Portfolio() {
           Diploma project
         </a>
       </figcaption>
-      <div className="portfolio__image-link">
-        <a
-          className="portfolio__figcaption-link"
-          href="https://the-mechanical-ocean.github.io/doctor-lending/"
-          target="blank"
-        >
-          <img className="portfolio__image" src={Portfolio3} alt="portfolio" />
-        </a>
-      </div>
+      <a
+        className="portfolio__image-link"
+        href="https://the-mechanical-ocean.github.io/doctor-lending/"
+        target="blank"
+      >
+        <img className="portfolio__image" src={Portfolio3} alt="portfolio" />
+      </a>
       <figcaption className="portfolio__figcaption">
         <a
           className="portfolio__figcaption-link"

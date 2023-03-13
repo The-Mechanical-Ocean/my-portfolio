@@ -118,9 +118,15 @@ export default function Navigation() {
         }
       >
         <nav className="navigation__nav-container">
-          <a href="#hero" className="navigation__menu-link">
-            {isRu ? 'Домашняя страница' : 'Home'}
-          </a>
+          <button
+            className="navigation__button-home"
+            type="button"
+            onClick={() => setIsMenuActive(!isMenuActive)}
+          >
+            <a href="#hero" className="navigation__menu-link">
+              {isRu ? 'Домашняя страница' : 'Home'}
+            </a>
+          </button>
           <a href="#about" className="navigation__menu-link">
             {isRu ? 'Обо мне' : 'About me'}
           </a>
