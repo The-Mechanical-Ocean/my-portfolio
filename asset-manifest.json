@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.15cfdf54.css",
-    "main.js": "/static/js/main.ef8c9dac.js",
+    "main.css": "/static/css/main.4119c26a.css",
+    "main.js": "/static/js/main.8c1a63e5.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/new-vert.png": "/static/media/new-vert.83b627f6f67c5b9f5094.png",
     "static/media/new-gorizont.png": "/static/media/new-gorizont.8a7ef854db793ade05df.png",
@@ -22,12 +22,12 @@
     "static/media/gilroy-bold.woff": "/static/media/gilroy-bold.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-medium.woff": "/static/media/gilroy-medium.31d6cfe0d16ae931b73c.woff",
     "static/media/gilroy-regular.woff": "/static/media/gilroy-regular.31d6cfe0d16ae931b73c.woff",
-    "main.15cfdf54.css.map": "/static/css/main.15cfdf54.css.map",
-    "main.ef8c9dac.js.map": "/static/js/main.ef8c9dac.js.map",
+    "main.4119c26a.css.map": "/static/css/main.4119c26a.css.map",
+    "main.8c1a63e5.js.map": "/static/js/main.8c1a63e5.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15cfdf54.css",
-    "static/js/main.ef8c9dac.js"
+    "static/css/main.4119c26a.css",
+    "static/js/main.8c1a63e5.js"
   ]
 }
