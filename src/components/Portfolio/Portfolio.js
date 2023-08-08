@@ -63,7 +63,7 @@ function Portfolio() {
         <div className="portfolio__link-element">
           <a
             className="portfolio__image-link"
-            href="https://the-mechanical-ocean.nomoredomains.sbs/sign-in"
+            href="https://mesto.alexkudrin.com/sign-in"
             target="blank"
           >
             <img
@@ -75,7 +75,7 @@ function Portfolio() {
           <figcaption className="portfolio__figcaption">
             <a
               className="portfolio__figcaption-link"
-              href="https://the-mechanical-ocean.nomoredomains.sbs/sign-in"
+              href="https://mesto.alexkudrin.com/sign-in"
               target="blank"
             >
               Places
@@ -85,7 +85,7 @@ function Portfolio() {
         <div className="portfolio__link-element">
           <a
             className="portfolio__image-link"
-            href="https://t-m-o-portfolio-movies.nomoredomains.icu/"
+            href="https://movies.alexkudrin.com/"
             target="blank"
           >
             <img
@@ -97,7 +97,7 @@ function Portfolio() {
           <figcaption className="portfolio__figcaption">
             <a
               className="portfolio__figcaption-link"
-              href="https://t-m-o-portfolio-movies.nomoredomains.icu/"
+              href="https://movies.alexkudrin.com/"
               target="blank"
             >
               Diploma project
